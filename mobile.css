@@ -65,7 +65,7 @@ h1 {
     text-align:center;
     color:#111111;
     padding-top:1em;
-    padding-bottom:1em;
+    padding-bottom:0.8em;
 }
 
 h2{
@@ -87,7 +87,7 @@ h4{
 }
 
 h5{
-    font-size:4.5em;
+    font-size:8em;
     color:#111111;
     padding-top:0.1em;
     padding-bottom:0.2em;
