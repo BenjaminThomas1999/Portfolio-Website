@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Big+Shoulders+Display:wght@300&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Reset End*/
+
+
+html{
+    font-family: 'Big Shoulders Display';
+}
+
+body{
+    
+}
+
+body.light1{
+    background-image:url('dot-grid.png')
+}
+
+body.dark1{
+    background-image:url('5-dots.png')
+}
+
+
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size:9em;
+    text-align:center;
+    color:#111111;
+    padding-top:0em;
+    padding-bottom:0.2em;
+}
+
+h2{
+    color:#111111;
+}
+
+h3{
+    font-size:4em;
+    color:#111111;
+    padding-top:0.1em;
+    padding-bottom:0.2em;
+}
+
+h4{
+    font-size:3em;
+    color:#111111;
+    padding-top:0em;
+    padding-bottom:0.2em;
+}
+
+h5{
+    font-size:2.4em;
+    color:#111111;
+    padding-top:0.1em;
+    padding-bottom:0.2em;
+}
+
+h6{
+    font-size:1.5em;
+    color:#111111;
+    padding-top:0.1em;
+    padding-bottom:0.2em;
+}
+
+div.content{
+    width:70%;
+    min-width: 900px;
+    max-width:1300px;
+    margin:auto;
+    background:#FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text-center{
+    text-align:center;
+}
+
+hr {
+    width:100%;
+    border:1px solid #111111;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+button{
+    background:none;
+    border:2px solid #111111;
+    color:#111111;
+    padding:1em;
+    padding-left:1.2em;
+    padding-right:1.2em;
+    margin:0.5em;
+    font-family: 'Big Shoulders Display';
+    font-size:2em;
+}
+
+button:hover{
+    background:#333333;
+    color:white;
+    border:2px solid transparent;
+    cursor:pointer;
+}
+
+button.green:hover{
+    background:#697042;
+}
+
+button.orange:hover{
+    background:#D36135;
+}
+
+button.blue:hover{
+    background:#50B2C0;
+}
+
+button.purple:hover{
+    background:#52414C;
+}
+
+button.yellow:hover{
+    background:#EFCA08;
+    color:#111111;
+}
+
+.center {
+    width: fit-content;
+    margin:0 auto;
+}
+
+.blue-text{
+    color:#50B2C0;
+}
+.orange-text{
+    color:#D36135;
+}
+.green-text{
+    color:#697042;
+}
+.purple-text{
+    color:#52414C;
+}
+
+.yellow-text{
+    color:#EFCA08;
+}
+
+.bold{
+    font-weight: 500;
+}
+
+.light{
+    font-weight: 100;
+}
